@@ -1,0 +1,14 @@
+@import './global.css';
+
+.phrase-stage {
+    margin-top: 60px;
+    background-color: rgb(240, 240, 255);
+    width: 100%;
+    height: 200px;    
+    display: grid;
+    place-items: center;
+}
+.phrase {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 30px;
+}

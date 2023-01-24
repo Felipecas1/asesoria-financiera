@@ -1,0 +1,49 @@
+@import './global.css';
+
+main {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin: 50px 30px;
+}
+.card-container {
+    width: 350px;
+    height: 550px;
+    background-color: white;
+    overflow: hidden;
+    border-radius: 20px;
+    border: 5px solid white;
+    box-shadow: 1px 10px 50px #0d007e65;
+    place-items: center;
+    text-align: center;
+}
+.card-info p {
+    text-align: justify;
+    font-size: 18px;
+}
+.usuario{
+    color: rgb(40, 119, 40);
+    font-weight: bold;
+}
+.button {
+    border-radius: 10px;
+    color: white;
+}
+.button:hover {
+    background: rgb(114, 205, 114);
+    border: 1px solid rgb(114, 205, 114);
+    color: white;
+    transition: background 0.5s linear;
+}
+.img-background img {
+    border-radius: 15px;
+}
+
+.returnlink {
+    text-decoration: none;
+    font-style: italic;
+    color: #238CBB;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px;
+}

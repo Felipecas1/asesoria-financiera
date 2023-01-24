@@ -1,0 +1,19 @@
+.general {
+    position: absolute;
+    top: 30px;
+    align-content: center;
+    right: 400px;
+}
+.form-data {
+    max-width: 500px;
+    height: 80vh;
+    font-size: 16px;
+}
+.config-button{
+    display: flex;
+}
+.return {
+    text-decoration: none;
+    font-style: italic;
+    color: #238CBB;
+}

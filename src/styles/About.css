@@ -1,0 +1,10 @@
+@import './global.css';
+
+.tittle-about {
+    text-align: center;
+
+    font-family: 'Libre Baskerville', serif;
+    font-style: italic;
+    margin: 50px 0px;
+    color: #238CBB;
+}
